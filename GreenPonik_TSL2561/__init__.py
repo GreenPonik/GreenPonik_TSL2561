@@ -1,1 +1,1 @@
-from GreenPonik_TSL2561 import GreenPonik_TSL2561
+from GreenPonik_TSL2561.GreenPonik_TSL2561 import GreenPonik_TSL2561
