@@ -53,11 +53,13 @@ setup(
         "License :: OSI Approved :: MIT License",
         "Operating System :: OS Independent",
     ],
-    packages=find_packages(exclude=("tests", "docs")),
+    packages=find_packages(exclude=("docs")),
     python_requires=REQUIRES_PYTHON,
     project_urls={  # Optional
         "Source": "https://github.com/GreenPonik/GreenPonik_TSL2561/",
-        "Bug Reports": "https://github.com/GreenPonik/GreenPonik_TSL2561/issues",
+        "Bug Reports": "https://github.com/GreenPonik/\
+            GreenPonik_TSL2561/issues",
     },
-    keywords="GreenPonik hydroponics tsl2561 light reader python hardware diy iot raspberry pi",
+    keywords="GreenPonik hydroponics tsl2561 light \
+        reader python hardware diy iot raspberry pi",
 )

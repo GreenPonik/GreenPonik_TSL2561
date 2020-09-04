@@ -28,8 +28,8 @@ sys.modules["board"] = BoardMock()
 sys.modules["busio"] = BusioMock()
 
 
-class TestGreenPonik_TSL2561(unittest.TestCase):
-    @patch("GreenPonik_TSL2561.GreenPonik_TSL2561.read_tsl2561")
+class Test_GreenPonik_TSL2561(unittest.TestCase):
+    @patch("GreenPonik_TSL2561.GreenPonik_TSL2561")
     def test_read_tsl2561(self, MockTSL):
         tsl = MockTSL()
         expected = [24.3, 12.3, 0.2]
